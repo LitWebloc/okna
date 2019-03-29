@@ -69,7 +69,9 @@ p {
   line-height: 26px;
   margin: 0 0 17px 0;
 }
-
+.just {
+    justify-content: space-around !important;
+}
 #component ul,
 ol {
   margin: 0 0 17px 0;
@@ -410,6 +412,17 @@ padding: 50px 0 192px;}
 .ff3{/* background: linear-gradient(to top, rgba(230, 55, 46, 0.38), rgba(56, 56, 56, 0.25)), url(http://xn----8sbwalkfeh8f.xn--p1ai/wp-content/uploads/2018/08/banner-bg8.1.jpg?id=6508) center no-repeat; */
 padding: 50px 0 190px;}
 
+.ff4{/* background: linear-gradient(to top, rgba(230, 55, 46, 0.38), rgba(56, 56, 56, 0.65)); */
+padding: 0 0 285px;}
+.ff4 a{
+  color: #000 !important;
+}
+.f4 .derevo95 ul.menu{
+      top: -270px !important;
+}
+.f4 .usl_rem95 ul ul li{
+  margin: 0;
+}
 .fffn{
   height: 20px;
 }
@@ -650,7 +663,7 @@ padding: 50px 0 190px;}
   width: 100% !important;
   max-width: 100% !important;
   background: url(../images/lll.webp);
-  padding: 50px 0 0 0;
+  padding: 50px 0;
   /* margin-top: -70px !important; */
 }
 
@@ -665,7 +678,6 @@ padding: 50px 0 190px;}
   top: 165px;
   font-size: 15px;
   left: 320px;
-  width: 283px;
   background: url(../images/zamok.png) 0px 2px no-repeat;
   padding: 0 0 0 25px;
   line-height: 18px;
@@ -906,7 +918,7 @@ body .formError {
 
 .comm_table {
   display: table;
-  margin: 40px 0;
+  margin: 40px 0 0;
 }
 
 .comm_img {
@@ -939,14 +951,12 @@ body .formError {
   width: 980px;
   margin: 0 auto;
   position: relative;
-  height: 283px;
 }
 
 .footform .zamok {
   top: 144px;
   font-size: 15px;
   left: 320px;
-  width: 283px;
   background: url(../images/zamok.png) 0px 2px no-repeat;
   padding: 0 0 0 25px;
 }
@@ -1809,10 +1819,9 @@ p.img_caption {
 }
 
 .rub800 {
-  font-size: 14px;
-  position: absolute;
-  top: 225px;
-  color: #777;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #777;
 }
 
 a.emailh {
